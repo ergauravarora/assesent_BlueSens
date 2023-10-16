@@ -1,0 +1,8 @@
+D:\Projects\Personal\jitendra\assesent_BlueSens\Assignment13\bin\Debug\Assignment13.exe.config
+D:\Projects\Personal\jitendra\assesent_BlueSens\Assignment13\bin\Debug\Assignment13.exe
+D:\Projects\Personal\jitendra\assesent_BlueSens\Assignment13\bin\Debug\Assignment13.pdb
+D:\Projects\Personal\jitendra\assesent_BlueSens\Assignment13\obj\Debug\Assignment13.csproj.AssemblyReference.cache
+D:\Projects\Personal\jitendra\assesent_BlueSens\Assignment13\obj\Debug\Assignment13.csproj.SuggestedBindingRedirects.cache
+D:\Projects\Personal\jitendra\assesent_BlueSens\Assignment13\obj\Debug\Assignment13.csproj.CoreCompileInputs.cache
+D:\Projects\Personal\jitendra\assesent_BlueSens\Assignment13\obj\Debug\Assignment13.exe
+D:\Projects\Personal\jitendra\assesent_BlueSens\Assignment13\obj\Debug\Assignment13.pdb
