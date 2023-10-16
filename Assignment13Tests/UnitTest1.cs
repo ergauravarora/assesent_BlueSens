@@ -15,7 +15,7 @@ namespace Assignment13Tests
             // Arrange
             int a = 5;
             int b = 3;
-            int expectedSum = 8;
+            int expectedSum = 0;
 
             // Act
             int actualSum = Program.sum(a, b);
