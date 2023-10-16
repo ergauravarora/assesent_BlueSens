@@ -1,0 +1,33 @@
+stages:
+  - build
+  - test
+  - deploy
+
+variables:
+  SOLUTION_FILE: Assignment13/Assignment13.sln
+
+before_script:
+  - 'echo "Setting up..."'
+
+build:
+  stage: build
+  script:
+    - 'dotnet build $SOLUTION_FILE'
+
+test:
+  stage: test
+  script:
+    - 'dotnet test Assignment13Tests/Assignment13Tests.csproj'
+  allow_failure: false
+
+merge_to_development:
+  stage: deploy
+  script:
+    - 'git checkout $CI_COMMIT_REF_NAME'
+    - 'git checkout development'
+    - 'git merge --no-ff $CI_COMMIT_REF_NAME'
+  only:
+    - /^feature\/.*$/
+    - /^bugfix\/.*$/
+    - /^hotfix\/.*$/
+  when: on_success
